@@ -38,24 +38,26 @@
 <h2>W9</h2>
 <p>期中分組報告</p>
 <h2>W10</h2>
-<p>設定ssh </p>
+<p>重新設定ssh </p>
 <h2>W11 W12</h2>
 <p>下載robodk這個程式</p>
 <h2>W13</h2>
 <p>開始使用 Google Meet 遠距上課</p>
 <h2>W14</h2>
-<p>操作robodk這個程式，並看看能不能正常運作</p>
+<p>操作 Robodk 這個程式，並看看能不能正常運作</p>
 <h2>W15</h2>
 <p>小組錄製討論畫面</p>
 <p>並放到分組網站上</p>
 <h2>W16</h2>
-<p>操作fossil，建立靜態網頁，使其與github同步</p>
+<p>操作 Fossil，建立靜態網頁，使其與github同步</p>
+<h2>W17</h2>
+<p>跟老師及同學分享自己這學期網際網路課程的學習成果</p>
 <p></p>
 <h1>網路環境</h1>
+<p></p>
 <p><span>之前在學校都是利用學校網路進行更新，</span>因為遠距教學，所以需要改網路才能夠push</p>
 <p></p>
-<p></p>
-<p>因為是使自己的網路，所以需要把proxy 的選項改為None</p>
+<p>因為是使用自己的網路，所以需要把 proxy 的 proxy type 選項改為 None</p>
 <p></p>
 <p><img alt="" height="542" src="/images/螢幕擷取畫面 (79).png" width="597"/></p>
 <p></p>
@@ -66,7 +68,9 @@
 <p><span>步驟四:</span><span> </span>(<span>修改命令搜尋路徑</span>) 修改隨身系統的啟動批次檔案, 讓 Windows 的命令視窗中可以執行 heroku.exe，重新啟動已經納入可執行 heroku.exe 的隨身碟 start_ipv6.bat 或 start_ipv4.bat中</p>
 <p><span>步驟五:</span><span> </span>(<span>測試 heroku 執行</span>) 重新打開start_ipv6.bat，在命令列中執行輸入 heroku version，如果有回應表示有設定成功</p>
 <p><img alt="" height="633" src="/images/螢幕擷取畫面 (80).png" width="1220"/></p>
+<p><span></span></p>
 <p><span>步驟六:</span><span> </span>(<span>設定 heroku 代理主機</span>) 在 y:\home_ipv6 下的 .giconfig 中， 以 git config --global http.proxy "http://your_proxy:port" 進行設定.</p>
+<p></p>
 <p>在 start_ipv6.bat 中加入:</p>
 <div>
 <div class="syntaxhighlighter js" id="highlighter_284040">
@@ -88,17 +92,19 @@
 </tr>
 </tbody>
 </table>
-<p><br/>因為是用自己得網路，所以要在前面打REM</p>
+<p></p>
+<p><br/>因為是用自己得網路，所以要在前面打REM變成註解</p>
 <p></p>
 <p><img alt="" height="915" src="/images/81.png" width="693"/></p>
 <p></p>
 </div>
 </div>
-<p><span>步驟七:</span><span> </span>(<span>設定同步倉儲</span>) 針對利用 Heroku 同步 Github Pages 上的網站內容, 只需要透過 git remote add (Heroku 指令為 heroku git:remote -a heroku_倉儲_名稱, 之後只要在 heroku login 狀態下, 可以直接利用 git push) 在近端設定一個連線到 Heroku 倉儲的代號, 就能在每次更新 Github Pages 倉儲後, 再將內容同步至 Heroku. </p>
+<p><span>步驟七:</span><span> </span>(<span>設定同步倉儲</span>) 透過 git remote add (Heroku 指令為 heroku git:remote -a heroku_倉儲_名稱, 之後只要在 heroku login 狀態下, 可以直接利用 git push) 在近端設定一個連線到 Heroku 倉儲的代號, 就能在每次更新 Github Pages 倉儲後, 再將內容同步至 Heroku. </p>
 <p></p>
-<p><span>步驟八:</span><span> </span>(<span>以 git 進行提交推送</span>) 利用 heroku git:remote -a 設定的同步倉儲其推送名稱內定為 "heroku", 使用者只要使用 git push heroku 就可以將改版內容推送到對應的 Heroku app 倉儲.</p>
+<p><span>步驟八:</span><span> </span>(<span>以 git 進行提交推送</span>) 只要使用 git push heroku 就可以將改版內容推送到對應的 Heroku app 倉儲.</p>
 <p></p>
-<p>(目前要git push heroku 有問題，在處理中!!!)</p>
+<p><img alt="" height="859" src="/images/螢幕擷取畫面 (207).png" width="1009"/></p>
+<p></p>
 <p></p>
 <h1>網路直播</h1>
 <p>點選右上角的進行直播</p>
@@ -124,34 +130,11 @@
 <p></p>
 <p><img alt="" height="808" src="/images/螢幕擷取畫面 (88).png" width="576"/></p>
 <p></p>
-<h1>Fossil</h1>
-<p>小組操作影片網址</p>
-<p><a href="https://www.youtube.com/watch?v=qg9JmMrDFNw">https://www.youtube.com/watch?v=qg9JmMrDFNw</a></p>
-<p><a href="https://www.youtube.com/watch?v=b4gaPmvRxHM">https://www.youtube.com/watch?v=b4gaPmvRxHM</a></p>
-<p><a href="https://www.youtube.com/watch?v=vZg9ktF6GQk">https://www.youtube.com/watch?v=vZg9ktF6GQ</a></p>
-<p></p>
-<p>我的fossil網站 <a href="https://fossil.kmol.info/u/40923106/home">https://fossil.kmol.info/u/40923106/home</a></p>
-<p></p>
-<p>以下為fossil的操作指令</p>
-<p></p>
-<p><img alt="" height="508" src="/images/螢幕擷取畫面 (72).png" width="1005"/></p>
-<p></p>
-<p></p>
-<p><img alt="" height="557" src="/images/螢幕擷取畫面 (73).png" width="1043"/></p>
-<p></p>
-<p></p>
-<p></p>
-<p><img alt="" height="548" src="/images/螢幕擷取畫面 (74).png" width="700"/></p>
-<p></p>
-<p></p>
-<p></p>
-<p><img alt="" height="427" src="/images/螢幕擷取畫面 (75).png" width="1067"/></p>
-<p></p>
 <p></p>
 <h1>Robodk </h1>
 <p></p>
 <p></p>
-<p>我是用自己的網路操作Robodk，所以要先找到ipv4的位置，打ipconfig /all，即可找到自己ipv4的位置。</p>
+<p>我是用自己的網路操作Robodk，所以要先找到ipv4的位置，在命令列打ipconfig /all，即可找到自己ipv4的位置。</p>
 <p></p>
 <p></p>
 <p><img alt="" height="844" src="/images/螢幕擷取畫面 (98).png" width="1216"/></p>
@@ -185,7 +168,7 @@
 <p></p>
 <p><img alt="" height="789" src="/images/2.png" width="711"/></p>
 <p></p>
-<p>點選API服務器IP後，確定網路位置正確後按OK</p>
+<p>點選API服務器IP後，確定網路位置是正確的ipv4位置後按OK</p>
 <p></p>
 <p><img alt="" height="200" src="/images/1.png" width="288"/></p>
 <p></p>
@@ -194,51 +177,29 @@
 <p></p>
 <p></p>
 <p><img alt="" height="1080" src="/images/螢幕擷取畫面 (102).png" width="1920"/></p>
+<h1>Fossil</h1>
+<p></p>
+<p>小組操作影片網址</p>
+<p><a href="https://www.youtube.com/watch?v=qg9JmMrDFNw">https://www.youtube.com/watch?v=qg9JmMrDFNw</a></p>
+<p><a href="https://www.youtube.com/watch?v=b4gaPmvRxHM">https://www.youtube.com/watch?v=b4gaPmvRxHM</a></p>
+<p><a href="https://www.youtube.com/watch?v=vZg9ktF6GQk">https://www.youtube.com/watch?v=vZg9ktF6GQ</a></p>
+<p></p>
+<p>我的fossil網站 <a href="https://fossil.kmol.info/u/40923106/home">https://fossil.kmol.info/u/40923106/home</a></p>
+<p></p>
+<p>以下為fossil的操作指令</p>
+<p></p>
+<p><img alt="" height="508" src="/images/螢幕擷取畫面 (72).png" width="1005"/></p>
+<p></p>
+<p></p>
+<p><img alt="" height="557" src="/images/螢幕擷取畫面 (73).png" width="1043"/></p>
 <p></p>
 <p></p>
 <p></p>
+<p><img alt="" height="548" src="/images/螢幕擷取畫面 (74).png" width="700"/></p>
 <p></p>
 <p></p>
 <p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<p><img alt="" height="427" src="/images/螢幕擷取畫面 (75).png" width="1067"/></p>
 <p></p>
 <p></p>
 <p></p>
